@@ -289,7 +289,11 @@ fieldset[disabled] .btn-xl.active {
   .navbar-form
   {
     padding:10px 30px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
+
+
   .btn-primary {
     margin-top: 5px;
     padding: 7px 46%;
@@ -297,7 +301,21 @@ fieldset[disabled] .btn-xl.active {
 
   header
   {
-    margin-top:100px;
+    margin-top:53px;
+  }
+
+  header .intro-text .intro-lead-in
+  {
+
+    font-size:24px;
+    line-height: 25px;
+    margin-bottom: 0px;
+    margin-top: 40px;
+  }
+
+  section h2.section-heading
+  {
+    font-size:23px;
   }
 
   .footer-description i {
@@ -388,7 +406,7 @@ header .intro-text .intro-lead-in {
 }
 
 section {
-  padding: 100px 0;
+  padding: 40px 0;
 }
 
 section h2.section-heading {
@@ -434,6 +452,7 @@ section h2.section-heading small
   margin: 0 auto;
 }
 
+
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
   
   background: #E2712D;
@@ -458,8 +477,94 @@ section h2.section-heading small
   text-align: center;
   top: 50%;
   margin-top: -12px;
+  color: white; 
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content span
+{
+  font-family: "Open Sans",sans-serif;
+  font-size: 16px;
+  padding-left: 10px;
+  text-decoration: underline;
+}
+
+#portfolio .portfolio-item .portfolio-link .portafolio-categoria
+{
+  font-size: 12px;
+  margin-top: 10px;
+  margin-left: 10px;
+  position: absolute;
+  z-index: 1;
+}
+
+#portfolio .portfolio-item .portfolio-link .portafolio-publicacion
+{
+  font-size: 12px;
+  margin-top: -30px;
+  margin-left: 10px;
+  position: absolute;
+  z-index: 1;
+}
+
+
+#recomendaciones-panel .recomendaciones-item .recomendaciones-link
+{
+  display: block;
+  position: relative;
+  max-width: auto;
+  margin: 0 auto;
+  text-decoration: none;
+}
+
+
+#recomendaciones-panel .recomendaciones-item .recomendaciones-link span
+{
+  font-family: "Open Sans";
+  font-size:16px;
+  padding-left:10px;
+  text-decoration: underline;
+}
+
+#recomendaciones-panel 
+.recomendaciones-item 
+.recomendaciones-link
+.recomendaciones-hover {
+  background: #E2712D;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all ease 0.3s;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  margin-left: -16px;
+  margin-top: -16px;
+  border-radius:3px;
+  -webkit-border-radius:3px;
+  -moz-border-radius:3px;
+  -ms-border-radius:3px;
+  -o-border-radius:3px;
+}
+
+#recomendaciones-panel .recomendaciones-item .recomendaciones-link .recomendaciones-hover:hover {
+  opacity: 0.9;
+}
+
+#recomendaciones-panel .recomendaciones-item .recomendaciones-link .recomendaciones-hover .recomendaciones-hover-content {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+  top: 50%;
+  margin-top: -12px;
   color: white;
 }
+
+#recomendaciones-panel * {
+  z-index: 2;
+}
+
 
 
 
@@ -487,8 +592,6 @@ section h2.section-heading small
   font-size: 11px;
   margin: 0;
 }
-
-
 
 #portfolio * {
   z-index: 2;
@@ -598,8 +701,6 @@ body {
 }
 
 
-
-
 /*********************** Recomendaciones *************************/
 
 /*Label Modificaciones*/
@@ -632,6 +733,11 @@ body {
   color:#e2702e;
   margin-left:13%;
   font-size: 30px;
+}
+
+.footer-description .comites-display
+{
+  visibility: hidden;
 }
 
 
@@ -670,169 +776,3 @@ body {
      font-style:italic;
      color:#DD956A ;
 }  /* Microsoft Edge */
-
-
-/*FOOTER*/
-#footer {
-	clear: both;
-	margin: 20px 1px 0 0;
-	padding: 0;
-	position: relative;
-	text-align: left;
-	background-color: #f0f0f0;
-	color: #FFF;
-	height:415px;
-	width:994px;
-}
-
-.pie {
-  color: #808080 !important;
-font-size: 0.75em !important;
-padding-top: 3px;
-width: 345px ;
-position: relative;
-bottom: 0;
-}
-
-#footer_muma .pie {
-color: #808080 !important;
-font-size: 0.75em !important;
-position: absolute;
-padding-top: 0px;
-width: 100%;
-bottom: 0;
-}
-
-div.sombra-footer {
-  background-image: url("images/shadow-footer.png");
-  background-position: center top;
-  background-repeat: no-repeat;
-  height: 25px;
-margin-top: 15px;
-  margin-bottom: 15px;
-}
-
-#footer .col3 {
-  border-left: 2px solid #e6e6e6;
-  border-right: 2px solid #e6e6e6;
-  margin-top: 5px;
-  width: auto!important;
-  float: left;
-}
-
-.line {
-  line-height: 26px;
-}
-
-.listaitemizada ul {
-  padding: 0 0.5em 0.5em;
-}
-
-#footer .col4 {
-  float: right;
-}
-
-#footer .col4 {
-  margin-right: 0px;
-}
-
-#footer .clear, #footer.clearfix {
-  clear: both;
-}
-
-div.sombra-footer {
-  background-image: url(images/shadow-footer.png);
-  background-position: center top;
-  background-repeat: no-repeat;
-  height: 25px;
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-
-.menu-final {
-  border-left: 1px solid #CCCCCC;
-  float: right !important;
-  font-size: 0.8em;
-  height: 16px;
-  padding-right: 10px;
-  text-align: right;
-  vertical-align: middle;
-  float: right;
-  margin: 0!important;
-  height: auto;
-}
-
-#footer .pie {
-  margin: 0 auto;
-  max-width: 996px;
- /* min-width: 996px;*/
-  position: relative;
-  width: 100%!important;
-background: #f0f0f0;
-}
-#footer a {
-  color: #333333;
-  text-decoration: none;
-}
-#footer a:hover {
-  color: #666666;
-  text-decoration: underline;
-}
-#footer p.creditos {
-  color: #666666;
-  display: table-cell;
-  font-size: 0.8em;
-  padding: 0.5em 0 1em;
-  vertical-align: middle;
-}
-#footer ul.menu_final {
-  list-style: none outside none;
-  margin: 0;
-  padding: 0;
-}
-#footer ul.menu_final li {
-  border-left: 1px solid #CCCCCC;
-  display: inline-block;
-  float: left;
-  font-size: 0.7em;
-  padding: 0 1em;
-}
-#footer ul.menu_final li:first-child {
-  border-left: medium none;
-  padding-left: 0;
-}
-#footer ul.menu_final li a {
-}
-#footer .col5 {
-  position: relative;
-}
-#footer a.link_dibam, #footer a.link_mineduc {
-  background-image: url("images/logos-abajo.png");
-  background-repeat: no-repeat;
-  display: block;
-  font-size: 0;
-  height: 80px;
-  line-height: 0;
-  position: absolute;
-  text-indent: -9999%;
-  width: 80px;
-}
-#footer a.link_dibam {
-  background-position: 3px 0;
-  left: 0;
-}
-#footer a.link_mineduc {
-  background-position: -86px 0;
-  left: 90px;
-}
-#footer .sombra {
-  margin-top: 30px;
-}
-#footer .footer_footer {
-  color: #333333;
-  font-size: 1em;
-  margin-left: 80px;
-}
-.footer_footer p {
-  font-weight: normal !important;
-}
