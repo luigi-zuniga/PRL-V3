@@ -20,7 +20,6 @@
     <!-- Tema Personalizado CSS -->
     <link href="resources/css/portal.css" rel="stylesheet">
 
-
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -36,7 +35,6 @@
         include("shared/header.php");
     ?>
     
-
     <!-- Section Recomendaciones -->
     <section id="recomendaciones">
         <div class="container">
@@ -239,8 +237,8 @@
                                 <h6>Título del libro en no más de uno o dos reglones, si no cabe se…</h6>
                            </div>
                        </div>
-            </div>
-        </div>
+                     </div>
+                </div>
     </section>
 
 

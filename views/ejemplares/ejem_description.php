@@ -59,7 +59,14 @@
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus varius elit at condimentum ﬁnibus. Fusce lacinia mi libero, eget sagittis risus consectetur a. Vivamus suscipit turpis a laoreet posuere. Fusce tristique vitae sapien non maximus. Vestibulum at lorem pellentesque, aliquam neque sit amet, volutpat risus. Vestibulum quis eleifend massa. Vestibulum accumsan consectetur lacus cursus iaculis. Pellentesque eget ipsum in odio mollis scelerisque vitae nec nisl. Sed felis odio, gravida ac sem non, blandit consectetur urna. Maecenas et molestie arcu.</p>
                             </div>
                             <div class="tab-pane" id="ejem_descripcion">
-                                Secondo sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. Aliquam in felis sit amet augue.
+                                <label>Nº de páginas: </label>
+                                <p>345</p>
+                                <label>Ancho</label>
+                                <p>231mm</p>
+                                <label>Alto</label>
+                                <p>231mm</p>
+                                <label>Profuncidad</label>
+                                <p>231mm</p>
                             </div>
                         </div>
                      </div>
@@ -97,18 +104,163 @@
                             <br/>
                         </div>  
                     </div>
-
-                <div class="container">
-                    <div class="row">
-                    <h4>Es parte de las siguiente recomendaciones:</h4>
-                 </div>
-    </div>
-                </div>
+        </div>
                 
 
         </div>
     </section>
 
+     <section id="recomendaciones">
+        <div class="container">
+            <!--Header Recomendaciones-->
+            <div class="row">
+                <div class="col-lg-12 text-left">
+                    <h4 class="section-heading">Es parte de las siguiente recomendaciones:</h4>
+                </div>
+            </div>
+            <!-- end Header Recomendaciones-->
+
+            <div class="row"> <!--Paneles Recomendaciones-->
+                <!--fila-->
+                <div id="recomendaciones-panel">
+                    <!--Recomendaciones Panel contenido-->
+                    <div class="col-md-6 recomendaciones-item">
+                        <a href="#" class="recomendaciones-link">
+                            <div class="panel">
+                                <div class="panel-body">
+                                        <div class="recomendaciones-hover">
+                                                <div class="recomendaciones-hover-content">
+                                                    <i class="fa fa-eye fa-1x"><span>Ver<span></i>
+                                               </div>
+                                           </div>
+                                    <h4>Título del set de recomendaciones de uno hasta tres reglones en la vista previa del</h4>
+                                    <small class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo
+                                        inventore harum ex magni, dicta impedit.</small>
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="footer-description">
+                                                <label class="label label-default">Año: 2015</label>
+                                                <small><strong>Comité:</strong> Nombre_del_comité_encargado</small>
+                                                <i class="fa fa-book fa-2x"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!--end Recomendaciones Panel contendo-->
+
+
+                    <!--Recomendaciones Panel contenido-->
+                    <div class="col-md-6 recomendaciones-item">
+                            <a href="#" class="recomendaciones-link">
+                                <div class="panel">
+                                    <div class="panel-body">
+                                            <div class="recomendaciones-hover">
+                                                    <div class="recomendaciones-hover-content">
+                                                        <i class="fa fa-eye fa-1x"><span>Ver<span></i>
+                                                   </div>
+                                               </div>
+                                        <h4>Título del set de recomendaciones de uno hasta tres reglones en la vista previa del</h4>
+                                        <small class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo
+                                            inventore harum ex magni, dicta impedit.</small>
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="footer-description">
+                                                    <label class="label label-default">Año: 2015</label>
+                                                    <small><strong>Comité:</strong> Nombre_del_comité_encargado</small>
+                                                    <i class="fa fa-book fa-2x"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!--end Recomendaciones Panel contendo-->
+                </div>
+                <!--end fila-->
+            </div><!--end Panel Recomendaciones-->
+        </div>
+    </section>
+
+
+
+    <section id="recomendaciones">
+        <div class="container">
+            <!--Header Recomendaciones-->
+            <div class="row">
+                <div class="col-lg-12 text-left">
+                    <h4 class="section-heading">Comites que han recomendado este título:</h4>
+                </div>
+            </div>
+            <!-- end Header Recomendaciones-->
+
+            <div class="row"> <!--Paneles Recomendaciones-->
+                <!--fila-->
+                <div id="recomendaciones-panel">
+                    <!--Recomendaciones Panel contenido-->
+                    <div class="col-md-6 recomendaciones-item">
+                        <a href="#" class="recomendaciones-link">
+                            <div class="panel">
+                                <div class="panel-body">
+                                        <div class="recomendaciones-hover">
+                                                <div class="recomendaciones-hover-content">
+                                                    <i class="fa fa-eye fa-1x"><span>Ver<span></i>
+                                               </div>
+                                           </div>
+                                    <h4>Título del comité de uno hasta tres reglones en la vista previa del set.</h4>
+                                    <small class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo
+                                        inventore harum ex magni, dicta impedit.</small>
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="footer-description">
+                                                <label class="label label-default">Año: 2015</label>
+                                                <small><strong>Comité:</strong> Nombre_del_comité_encargado</small>
+                                                <i class="fa fa-users fa-2x"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!--end Recomendaciones Panel contendo-->
+
+
+                    <!--Recomendaciones Panel contenido-->
+                    <div class="col-md-6 recomendaciones-item">
+                            <a href="#" class="recomendaciones-link">
+                                <div class="panel">
+                                    <div class="panel-body">
+                                            <div class="recomendaciones-hover">
+                                                    <div class="recomendaciones-hover-content">
+                                                        <i class="fa fa-eye fa-1x"><span>Ver<span></i>
+                                                   </div>
+                                               </div>
+                                        <h4>Título del comité de uno hasta tres reglones en la vista previa del set.</h4>
+                                        <small class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo
+                                            inventore harum ex magni, dicta impedit.</small>
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="footer-description">
+                                                    <label class="label label-default">Año: 2015</label>
+                                                    <small><strong>Comité:</strong> Nombre_del_comité_encargado</small>
+                                                    <i class="fa fa-users fa-2x"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!--end Recomendaciones Panel contendo-->
+                </div>
+                <!--end fila-->
+            </div><!--end Panel Recomendaciones-->
+        </div>
+    </section>
 
 
 
