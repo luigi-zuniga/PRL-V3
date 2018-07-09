@@ -278,12 +278,15 @@ fieldset[disabled] .btn-xl.active {
   {
     font-size:16px;
     line-height: 12px;
+    font-weight: 600;
   }
 
   .navbar-custom .navbar-header img
   {
-    width: 64px;
-    margin-top: -16px;
+    width: 40px;
+    margin-top: -11px;
+    margin-right:6px;
+    padding-right: 0px;
   }
 
   .navbar-form
@@ -296,8 +299,10 @@ fieldset[disabled] .btn-xl.active {
 
   .btn-primary {
     margin-top: 5px;
-    padding: 7px 46%;
-}
+    padding: 7px 44%;
+  }
+
+
 
   header
   {
@@ -319,8 +324,11 @@ fieldset[disabled] .btn-xl.active {
   }
 
   .footer-description i {
-    margin-left: 28%;
+    font-size: 20px;
   }
+
+
+  
 }
 
 @media (min-width: 768px) {
@@ -384,8 +392,8 @@ header .intro-text .intro-lead-in {
 
 @media (min-width: 768px) {
   header .intro-text {
-    padding-top: 300px;
-    padding-bottom: 200px;
+    padding-top: 250px;
+    padding-bottom: 100px;
   }
   header .intro-text .intro-lead-in {
     font-family: "Oswald", sans-serif;
@@ -653,10 +661,10 @@ section h2.section-heading small
   opacity: 0.3;
 }
 .portfolio-modal .close-modal .lr {
-  height: 75px;
+  height: 35px;
   width: 1px;
   margin-left: 35px;
-  background-color: #222222;
+  background-color:#e2702e;
   transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   /* IE 9 */
@@ -666,9 +674,9 @@ section h2.section-heading small
 }
 
 .portfolio-modal .close-modal .lr .rl {
-  height: 75px;
+  height: 35px;
   width: 1px;
-  background-color: #222222;
+  background-color:#e2702e;
   transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   /* IE 9 */
@@ -725,10 +733,7 @@ body {
   margin-bottom: 0px;
 }
 
-.footer-description label
-{
-  margin-right: 15px;
-}
+
 .footer-description i{
   color:#e2702e;
   margin-left:13%;
