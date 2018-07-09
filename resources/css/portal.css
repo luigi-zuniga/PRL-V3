@@ -35,7 +35,7 @@ a.active {
   color: #fec503;
 }
 
-h2,
+
 h3,
 h5{
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -48,6 +48,15 @@ h1
   text-transform: capitalize;
   font-weight: lighter;
   font-size: 48px;
+  color:#E2712D;
+}
+
+h2
+{
+  font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: none;
+  font-weight: 500;
+  font-size: 36px;
   color:#E2712D;
 }
 
@@ -641,14 +650,17 @@ section h2.section-heading small
   font-style: italic;
   font-size: 16px;
 }
-.ejemplar-modal .modal-content ul.list-inline {
+.ejemplar-modal .modal-content ul.list-inline 
+{
   margin-bottom: 30px;
   margin-top: 0;
 }
-.ejemplar-modal .modal-content img {
+.ejemplar-modal .modal-content img 
+{
   margin-bottom: 30px;
 }
-.ejemplar-modal .close-modal {
+.ejemplar-modal .close-modal 
+{
   position: absolute;
   width: 75px;
   height: 75px;
@@ -657,9 +669,11 @@ section h2.section-heading small
   right: 25px;
   cursor: pointer;
 }
-.ejemplar-modal .close-modal:hover {
+.ejemplar-modal .close-modal:hover 
+{
   opacity: 0.3;
 }
+
 .ejemplar-modal .close-modal .lr {
   height: 35px;
   width: 1px;
@@ -732,7 +746,6 @@ body {
   margin-top:10px;
   margin-bottom: 0px;
 }
-
 
 .footer-description i{
   color:#e2702e;

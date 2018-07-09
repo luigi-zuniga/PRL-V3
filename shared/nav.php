@@ -8,7 +8,7 @@
                     <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">
-                    <img src="resources/img/PRL-logotipo-color-lg.png" class="img-responsive">Recomendaciones
+                    <img src="/PRL-V3/resources/img/PRL-logotipo-color-lg.png" class="img-responsive">Recomendaciones
                     <br/>de Lectura</a>
             </div>
 

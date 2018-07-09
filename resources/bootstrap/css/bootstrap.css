@@ -4878,11 +4878,16 @@ a.label:focus {
   background-color: #5e5e5e;
 }
 .label-primary {
-  background-color: #337ab7;
+  /*background-color: #337ab7;*/
+    background-color: #e2712d;
+    font-weight: 600;
+    font-family: "Open Sans";
+    font-size: 14px;
 }
 .label-primary[href]:hover,
 .label-primary[href]:focus {
-  background-color: #286090;
+  /*background-color: #286090;*/
+  background-color:#d9534f; 
 }
 .label-success {
   background-color: #5cb85c;
@@ -4891,13 +4896,24 @@ a.label:focus {
 .label-success[href]:focus {
   background-color: #449d44;
 }
+
 .label-info {
-  background-color: #5bc0de;
+  /*background-color: #5bc0de;*/
+  background-color:#9A3C1C;
+  font-weight: 600;
+  font-family: "Open Sans";
+  font-size: 14px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .label-info[href]:hover,
 .label-info[href]:focus {
-  background-color: #31b0d5;
+  /*background-color: #31b0d5;*/
+  background-color:#9A3C1C;
+  
 }
+
+
 .label-warning {
   background-color: #f0ad4e;
 }

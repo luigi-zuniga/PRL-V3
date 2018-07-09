@@ -350,8 +350,8 @@
                                     <li><strong>ISBN:</strong> 1-4028-9462-7</li>
                                     <li><strong>Materias: </strong> Astronomía</li>
                                 </ul>
-                                <button type="submit" class="btn btn-default btn-block">
-                                <i class="fa fa-plus"></i> Más información</button>
+                                <a href="views/ejemplares/ejem_description.php" class="btn btn-default btn-block">
+                                <i class="fa fa-plus"></i> Más información</a>
                             </div>
                         </div>
                     </div>
