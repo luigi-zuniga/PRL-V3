@@ -8,7 +8,7 @@
                     <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">
-                    <img src="img/PRL-logotipo-color-lg.png" class="img-responsive">Recomendaciones
+                    <img src="resources/img/PRL-logotipo-color-lg.png" class="img-responsive">Recomendaciones
                     <br/>de Lectura</a>
             </div>
 
@@ -23,16 +23,16 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="/Portales/">Inicio</a>
+                        <a class="page-scroll" href="/PRL-V3/">Inicio</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="/Portales/Views/Recomendaciones/recomendaciones.php">Recomendaciones</a>
+                        <a class="page-scroll" href="/PRL-V3/views/Recomendaciones/recomendaciones.php">Recomendaciones</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="/Portales/Views/Comites/comite.php">Comités</a>
+                        <a class="page-scroll" href="/PRL-V3/views/Comites/comite.php">Comités</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="/Portales/Views/Contacto/contacto.php">Contacto</a>
+                        <a class="page-scroll" href="/PRL-V3/views/Contacto/contacto.php">Contacto</a>
                     </li>
                 </ul>
             </div>

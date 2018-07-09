@@ -11,14 +11,14 @@
     <title>Portal de Recomendaciones - Inicio</title>
 
     <!-- Bootstrap  CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="resources/bootstrap/css/bootstrap.css" rel="stylesheet">
 
     <!-- Fuentes -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="resources/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700|Open+Sans:300,700|Oswald:400,500,700" rel="stylesheet">
     <!-- Tema Personalizado CSS -->
-    <link href="css/portal.css" rel="stylesheet">
+    <link href="resources/css/portal.css" rel="stylesheet">
 
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -119,7 +119,7 @@
 
 
     <!-- Section Libros Recomendados -->
-    <section id="portfolio" class="bg-light-gray">
+    <section id="ejemplar" class="bg-light-gray">  
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -130,36 +130,36 @@
             </div>
 
             <div class="row">
-                    <div class="col-lg-2 col-md-3 col-sm-3 col-xs-6 portfolio-item">
-                         <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                              <div class="portfolio-hover">
-                                 <div class="portfolio-hover-content">
+                    <div class="col-lg-2 col-md-3 col-sm-3 col-xs-6 ejemplar-item">
+                         <a href="#ejemplarModal1" class="ejemplar-link" data-toggle="modal">
+                              <div class="ejemplar-hover">
+                                 <div class="ejemplar-hover-content">
                                      <i class="fa fa-eye fa-1x"><span>Ver<span></i>
                                 </div>
                             </div>
                             <label class="label label-default portafolio-categoria">Jovenes - Adultos</label>
-                            <img src="img/book-portada.jpg" class="img-responsive" alt="">
+                            <img src="resources/img/book-portada.jpg" class="img-responsive" alt="">
                             <label class="label label-default portafolio-publicacion">Año: 2015</label>
                             </a>
-                        <div class="portfolio-caption">
+                        <div class="ejemplar-caption">
                              <small><strong>De:</strong > Nombre_del_autor uno_a__dos_reglones_m-aximo.</small>
                              <h6>Título del libro en no más de uno o dos reglones, si no cabe se…</h6>
                         </div>
                     </div>
 
 
-                    <div class="col-lg-2 col-md-3 col-sm-3 col-xs-6 portfolio-item">
-                            <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                                 <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content">
+                    <div class="col-lg-2 col-md-3 col-sm-3 col-xs-6 ejemplar-item">
+                            <a href="#ejemplarModal1" class="ejemplar-link" data-toggle="modal">
+                                 <div class="ejemplar-hover">
+                                    <div class="ejemplar-hover-content">
                                         <i class="fa fa-eye fa-1x"><span>Ver<span></i>
                                    </div>
                                </div>
                                <label class="label label-default portafolio-categoria">Jovenes - Adultos</label>
-                               <img src="img/book-portada.jpg" class="img-responsive" alt="">
+                               <img src="resources/img/book-portada.jpg" class="img-responsive" alt="">
                                <label class="label label-default portafolio-publicacion">Año: 2015</label>
                                </a>
-                           <div class="portfolio-caption">
+                           <div class="ejemplar-caption">
                                 <small><strong>De:</strong > Nombre_del_autor uno_a__dos_reglones_m-aximo.</small>
                                 <h6>Título del libro en no más de uno o dos reglones, si no cabe se…</h6>
                            </div>
@@ -167,55 +167,36 @@
 
 
 
-                       <div class="col-lg-2 col-md-3 col-sm-3 col-xs-6 portfolio-item">
-                            <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                                 <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content">
+                       <div class="col-lg-2 col-md-3 col-sm-3 col-xs-6 ejemplar-item">
+                            <a href="#ejemplarModal1" class="ejemplar-link" data-toggle="modal">
+                                 <div class="ejemplar-hover">
+                                    <div class="ejemplar-hover-content">
                                         <i class="fa fa-eye fa-1x"><span>Ver<span></i>
                                    </div>
                                </div>
                                <label class="label label-default portafolio-categoria">Jovenes - Adultos</label>
-                               <img src="img/book-portada.jpg" class="img-responsive" alt="">
+                               <img src="resources/img/book-portada.jpg" class="img-responsive" alt="">
                                <label class="label label-default portafolio-publicacion">Año: 2015</label>
                                </a>
-                           <div class="portfolio-caption">
+                           <div class="ejemplar-caption">
                                 <small><strong>De:</strong > Nombre_del_autor uno_a__dos_reglones_m-aximo.</small>
                                 <h6>Título del libro en no más de uno o dos reglones, si no cabe se…</h6>
                            </div>
                        </div>
 
 
-                       <div class="col-lg-2 col-md-3 col-sm-3 col-xs-6 portfolio-item">
-                            <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                                 <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content">
+                       <div class="col-lg-2 col-md-3 col-sm-3 col-xs-6 ejemplar-item">
+                            <a href="#ejemplarModal1" class="ejemplar-link" data-toggle="modal">
+                                 <div class="ejemplar-hover">
+                                    <div class="ejemplar-hover-content">
                                         <i class="fa fa-eye fa-1x"><span>Ver<span></i>
                                    </div>
                                </div>
                                <label class="label label-default portafolio-categoria">Jovenes - Adultos</label>
-                               <img src="img/book-portada.jpg" class="img-responsive" alt="">
+                               <img src="resources/img/book-portada.jpg" class="img-responsive" alt="">
                                <label class="label label-default portafolio-publicacion">Año: 2015</label>
                                </a>
-                           <div class="portfolio-caption">
-                                <small><strong>De:</strong > Nombre_del_autor uno_a__dos_reglones_m-aximo.</small>
-                                <h6>Título del libro en no más de uno o dos reglones, si no cabe se…</h6>
-                           </div>
-                       </div>
-
-
-
-                       <div class="col-lg-2 col-md-3 col-sm-3 col-xs-6 portfolio-item">
-                            <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                                 <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content">
-                                        <i class="fa fa-eye fa-1x"><span>Ver<span></i>
-                                   </div>
-                               </div>
-                               <label class="label label-default portafolio-categoria">Jovenes - Adultos</label>
-                               <img src="img/book-portada.jpg" class="img-responsive" alt="">
-                               <label class="label label-default portafolio-publicacion">Año: 2015</label>
-                               </a>
-                           <div class="portfolio-caption">
+                           <div class="ejemplar-caption">
                                 <small><strong>De:</strong > Nombre_del_autor uno_a__dos_reglones_m-aximo.</small>
                                 <h6>Título del libro en no más de uno o dos reglones, si no cabe se…</h6>
                            </div>
@@ -223,18 +204,37 @@
 
 
 
-                       <div class="col-lg-2 col-md-3 col-sm-3 col-xs-6 portfolio-item">
-                            <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                                 <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content">
+                       <div class="col-lg-2 col-md-3 col-sm-3 col-xs-6 ejemplar-item">
+                            <a href="#ejemplarModal1" class="ejemplar-link" data-toggle="modal">
+                                 <div class="ejemplar-hover">
+                                    <div class="ejemplar-hover-content">
                                         <i class="fa fa-eye fa-1x"><span>Ver<span></i>
                                    </div>
                                </div>
                                <label class="label label-default portafolio-categoria">Jovenes - Adultos</label>
-                               <img src="img/book-portada.jpg" class="img-responsive" alt="">
+                               <img src="resources/img/book-portada.jpg" class="img-responsive" alt="">
                                <label class="label label-default portafolio-publicacion">Año: 2015</label>
                                </a>
-                           <div class="portfolio-caption">
+                           <div class="ejemplar-caption">
+                                <small><strong>De:</strong > Nombre_del_autor uno_a__dos_reglones_m-aximo.</small>
+                                <h6>Título del libro en no más de uno o dos reglones, si no cabe se…</h6>
+                           </div>
+                       </div>
+
+
+
+                       <div class="col-lg-2 col-md-3 col-sm-3 col-xs-6 ejemplar-item">
+                            <a href="#ejemplarModal1" class="ejemplar-link" data-toggle="modal">
+                                 <div class="ejemplar-hover">
+                                    <div class="ejemplar-hover-content">
+                                        <i class="fa fa-eye fa-1x"><span>Ver<span></i>
+                                   </div>
+                               </div>
+                               <label class="label label-default portafolio-categoria">Jovenes - Adultos</label>
+                               <img src="resources/img/book-portada.jpg" class="img-responsive" alt="">
+                               <label class="label label-default portafolio-publicacion">Año: 2015</label>
+                               </a>
+                           <div class="ejemplar-caption">
                                 <small><strong>De:</strong > Nombre_del_autor uno_a__dos_reglones_m-aximo.</small>
                                 <h6>Título del libro en no más de uno o dos reglones, si no cabe se…</h6>
                            </div>
@@ -258,7 +258,7 @@
                         <div id="recomendaciones-panel">
                                 <!--Recomendaciones Panel contenido-->
                                 <div class="col-md-6 recomendaciones-item">
-                                    <a href="#" class="recomendaciones-link">
+                                    <a href="#comiteModal1" class="recomendaciones-link"  data-toggle="modal">
                                         <div class="panel">
                                             <div class="panel-body">
                                                     <div class="recomendaciones-hover">
@@ -284,7 +284,7 @@
                                 </div>
 
                                 <div class="col-md-6 recomendaciones-item">
-                                        <a href="#" class="recomendaciones-link">
+                                    <a href="#comiteModal1" class="recomendaciones-link"  data-toggle="modal">  
                                             <div class="panel">
                                                 <div class="panel-body">
                                                         <div class="recomendaciones-hover">
@@ -327,7 +327,7 @@
 
     <!--  Modal -->
     <!--  Modal 1 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="ejemplar-modal modal fade" id="ejemplarModal1" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="close-modal" data-dismiss="modal">
@@ -343,15 +343,44 @@
                                 <!--  Detalle -->
                                 <h4>Título del libro en no más de uno o dos reglones, si no cabe se…</h4>
                                 <p class="item-intro text-muted"><strong>De:</strong> Nombre_del_autor uno_a__dos_reglones_m-aximo.</p>
-                                <img class="img-responsive img-centered" src="img/book-portada.jpg" alt="" width="200px">
+                                <img class="img-responsive img-centered" src="resources/img/book-portada.jpg" alt="" width="200px">
                                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed sequi et possimus ducimus modi id totam est explicabo magnam excepturi. Dolores labore animi dolore nostrum odit. Sit, doloribus. Omnis, obcaecati!</p>
                                 <ul class="list-inline">
                                     <li><strong>Publicado:</strong> Julio 2018</li>
                                     <li><strong>ISBN:</strong> 1-4028-9462-7</li>
                                     <li><strong>Materias: </strong> Astronomía</li>
                                 </ul>
-                                <button type="submit" class="btn btn-default btn-block" data-dismiss="modal">
+                                <button type="submit" class="btn btn-default btn-block">
                                 <i class="fa fa-plus"></i> Más información</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Modal Comite-->
+    <div class="ejemplar-modal modal fade" id="comiteModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!--  Detalle -->
+                                <h4>Título_del_comité_en_un_reglón.</h4>
+                                <img class="img-responsive img-centered" src="https://dummyimage.com/300x400/575757/e6e6ed.jpg" alt="" width="200px">
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed sequi et possimus ducimus modi id totam est explicabo magnam excepturi. Dolores labore animi dolore nostrum odit. Sit, doloribus. Omnis, obcaecati!</p>
+                                <a href="https://www.google.cl/?gws_rd=ssl" class="btn btn-default btn-block">
+                                <i class="fa fa-plus"></i> Más información</a>
                             </div>
                         </div>
                     </div>
@@ -364,20 +393,19 @@
 
 
     <!-- jQuery -->
-    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="resources/jquery/jquery.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="resources/bootstrap/js/bootstrap.min.js"></script>
 
     <!-- Plugin JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 
     <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
+    <script src="resources/js/jqBootstrapValidation.js"></script>
 
     <!-- Theme JavaScript -->
-    <script src="js/portal.js"></script>
+    <script src="resources/js/portal.js"></script>
 
 </body>
 
