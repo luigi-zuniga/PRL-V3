@@ -756,21 +756,15 @@ body {
   border:1px solid #DD956A;
 }
 
-.footer-description
-{
+.footer-description {
   margin-top:10px;
   margin-bottom: 0px;
 }
 
-.footer-description i{
+.footer-description > i{
   color:#e2702e;
-  margin-left:13%;
+  padding-left:90px;
   font-size: 30px;
-}
-
-.footer-description .comites-display
-{
-  visibility: hidden;
 }
 
 

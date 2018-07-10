@@ -72,12 +72,12 @@
                      </div>
 
                     <div class="col-lg-3">
-                            <label for="">Público:</label>
+                            <label for="">Rango Etario:</label>
                             <br/>
                             <label class="label label-primary">Jovenes</label>&nbsp;<label class="label label-primary">Adultos</label>
                             <br/>
                             <br/>
-                            <label for="">Temas:</label>
+                            <label for="">Area:</label>
                             <br/>
                             <label class="label label-primary">Ciencia y Tecnología</label>
                             <br/>
@@ -100,6 +100,11 @@
                             <label for="">ID Consejo Marco:</label>
                             <br/>
                             <label class="label label-info">94629462</label>
+                            <br/>
+                            <br/>
+                            <label for="">Exportar:</label>
+                            <br/>
+                            <button class="btn btn-sm btn-success"><i class="fa fa-file-excel-o"></i> Excel</button>
                             <br/>
                             <br/>
                         </div>  
@@ -281,3 +286,10 @@
     <script src="../../resources/js/portal.js"></script>
 </body>
 </html>
+
+<!--
+    Año Recomendacion {,}
+    Area Publicacion {informacion general}
+    Dimensiones {Descripcion Fisica}
+    Formato {Descriptcion}
+-->

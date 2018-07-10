@@ -255,7 +255,7 @@
 
                         <div id="recomendaciones-panel">
                                 <!--Recomendaciones Panel contenido-->
-                                <div class="col-md-6 recomendaciones-item">
+                                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 recomendaciones-item">
                                     <a href="#comiteModal1" class="recomendaciones-link"  data-toggle="modal">
                                         <div class="panel">
                                             <div class="panel-body">
@@ -271,7 +271,6 @@
                                                     <div class="row">
                                                         <div class="footer-description">
                                                             <label class="label label-default">Año: 2015</label>
-                                                            <small class="comites-display"><strong>Comité:</strong> Nombre_del_comité_encargado</small>
                                                             <i class="fa fa-users fa-2x"></i>
                                                         </div>
                                                     </div>
@@ -281,7 +280,33 @@
                                     </a>
                                 </div>
 
-                                <div class="col-md-6 recomendaciones-item">
+                                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 recomendaciones-item">
+                                    <a href="#comiteModal1" class="recomendaciones-link"  data-toggle="modal">  
+                                            <div class="panel">
+                                                <div class="panel-body">
+                                                        <div class="recomendaciones-hover">
+                                                                <div class="recomendaciones-hover-content">
+                                                                    <i class="fa fa-eye fa-1x"><span>Ver<span></i>
+                                                               </div>
+                                                           </div>
+                                                    <h4>Título del comité de uno hasta tres reglones en la vista</h4>
+                                                    <small class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo
+                                                        inventore harum ex magni, dicta impedit.</small>
+                                                    <div class="container">
+                                                        <div class="row">    
+                                                            <div class="footer-description">
+                                                                <label class="label label-default">Año: 2015</label>
+                                                                <i class="fa fa-users fa-2x"></i>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    
+                                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 recomendaciones-item">
                                     <a href="#comiteModal1" class="recomendaciones-link"  data-toggle="modal">  
                                             <div class="panel">
                                                 <div class="panel-body">
@@ -297,7 +322,32 @@
                                                         <div class="row">
                                                             <div class="footer-description">
                                                                 <label class="label label-default">Año: 2015</label>
-                                                                <small class="comites-display"><strong>Comité:</strong> Nombre_del_comité_encargado</small>
+                                                                <i class="fa fa-users fa-2x"></i>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    
+                                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 recomendaciones-item">
+                                    <a href="#comiteModal1" class="recomendaciones-link"  data-toggle="modal">  
+                                            <div class="panel">
+                                                <div class="panel-body">
+                                                        <div class="recomendaciones-hover">
+                                                                <div class="recomendaciones-hover-content">
+                                                                    <i class="fa fa-eye fa-1x"><span>Ver<span></i>
+                                                               </div>
+                                                           </div>
+                                                    <h4>Título del comité de uno hasta tres reglones en la vista</h4>
+                                                    <small class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo
+                                                        inventore harum ex magni, dicta impedit.</small>
+                                                    <div class="container">
+                                                        <div class="row">
+                                                            <div class="footer-description">
+                                                                <label class="label label-default">Año: 2015</label>
                                                                 <i class="fa fa-users fa-2x"></i>
                                                             </div>
                                                         </div>
