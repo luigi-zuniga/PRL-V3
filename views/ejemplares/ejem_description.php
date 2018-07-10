@@ -27,7 +27,7 @@
     <?php
         include("../../shared/nav.php");
     ?>
-    <section id="ejemplar" class="" style="margin-top:120px;">
+    <section id="ejemplar" class="" style="margin-top:120px;" >
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-left">
@@ -110,7 +110,7 @@
         </div>
     </section>
 
-     <section id="recomendaciones">
+     <section class="box-recomendaciones">
         <div class="container">
             <!--Header Recomendaciones-->
             <div class="row">
@@ -124,7 +124,7 @@
                 <!--fila-->
                 <div id="recomendaciones-panel">
                     <!--Recomendaciones Panel contenido-->
-                    <div class="col-md-6 recomendaciones-item">
+                    <div class="col-md-9 recomendaciones-item">
                         <a href="#" class="recomendaciones-link">
                             <div class="panel">
                                 <div class="panel-body">
@@ -138,7 +138,7 @@
                                         inventore harum ex magni, dicta impedit.</small>
                                     <div class="container">
                                         <div class="row">
-                                            <div class="footer-description">
+                                            <div class="footer-recomedacion">
                                                 <label class="label label-default">Año: 2015</label>
                                                 <small><strong>Comité:</strong> Nombre_del_comité_encargado</small>
                                                 <i class="fa fa-book fa-2x"></i>
@@ -153,7 +153,7 @@
 
 
                     <!--Recomendaciones Panel contenido-->
-                    <div class="col-md-6 recomendaciones-item">
+                    <div class="col-md-9 recomendaciones-item">
                             <a href="#" class="recomendaciones-link">
                                 <div class="panel">
                                     <div class="panel-body">
@@ -167,7 +167,7 @@
                                             inventore harum ex magni, dicta impedit.</small>
                                         <div class="container">
                                             <div class="row">
-                                                <div class="footer-description">
+                                                <div class="footer-recomedacion">
                                                     <label class="label label-default">Año: 2015</label>
                                                     <small><strong>Comité:</strong> Nombre_del_comité_encargado</small>
                                                     <i class="fa fa-book fa-2x"></i>
@@ -187,7 +187,7 @@
 
 
 
-    <section id="recomendaciones">
+    <section class="box-recomendaciones">
         <div class="container">
             <!--Header Recomendaciones-->
             <div class="row">
@@ -201,7 +201,7 @@
                 <!--fila-->
                 <div id="recomendaciones-panel">
                     <!--Recomendaciones Panel contenido-->
-                    <div class="col-md-6 recomendaciones-item">
+                    <div class="col-md-9 recomendaciones-item">
                         <a href="#" class="recomendaciones-link">
                             <div class="panel">
                                 <div class="panel-body">
@@ -215,7 +215,7 @@
                                         inventore harum ex magni, dicta impedit.</small>
                                     <div class="container">
                                         <div class="row">
-                                            <div class="footer-description">
+                                            <div class="footer-recomedacion">
                                                 <label class="label label-default">Año: 2015</label>
                                                 <small><strong>Comité:</strong> Nombre_del_comité_encargado</small>
                                                 <i class="fa fa-users fa-2x"></i>
@@ -230,7 +230,7 @@
 
 
                     <!--Recomendaciones Panel contenido-->
-                    <div class="col-md-6 recomendaciones-item">
+                    <div class="col-md-9 recomendaciones-item">
                             <a href="#" class="recomendaciones-link">
                                 <div class="panel">
                                     <div class="panel-body">
@@ -244,7 +244,7 @@
                                             inventore harum ex magni, dicta impedit.</small>
                                         <div class="container">
                                             <div class="row">
-                                                <div class="footer-description">
+                                                <div class="footer-recomedacion">
                                                     <label class="label label-default">Año: 2015</label>
                                                     <small><strong>Comité:</strong> Nombre_del_comité_encargado</small>
                                                     <i class="fa fa-users fa-2x"></i>

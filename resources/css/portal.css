@@ -584,6 +584,21 @@ section h2.section-heading small
 
 
 
+.box-recomendaciones
+{
+  padding-top:0px;
+  padding-bottom: 0px;
+  margin-top:-20px;
+}
+
+.footer-recomedacion i
+{
+  color:#e2702e;
+  margin-left:38%;
+  font-size: 30px;
+}
+
+
 
 #ejemplar .ejemplar-item .ejemplar-link .ejemplar-hover .ejemplar-hover-content i{
   margin-top: -12px;
