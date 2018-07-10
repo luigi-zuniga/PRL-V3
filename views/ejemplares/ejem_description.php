@@ -12,7 +12,7 @@
     <!-- Fuentes -->
     <link href="../../resources/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700|Open+Sans:300,700|Oswald:400,500,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700|Open+Sans:300,700|Oswald:400,500,700" rel="stylesheet">
     <!-- Tema Personalizado CSS -->
     <link href="../../resources/css/portal.css" rel="stylesheet">
 
@@ -34,44 +34,55 @@
                     <h2 class="section-heading">Título del libro en uno o dos reglones. Título del libro en uno o dos reglones. Título del libro en uno o dos reglones</h2>
                 </div>
 
-                    <div class="col-lg-3" style="margin-bottom:20px;">
+                    <div class="col-lg-3 col-xs-12" style="margin-bottom:20px;">
                         <img class="img-responsive img-centered" src="../../resources/img/book-portada.jpg" alt="">
                         <label for="">Autor</label>
                         <p>Nombre_del_autor_de_uno_a__ dos_reglones.</p>
-                        <label for="">Publicado en</label>
+                        <label for="">Exportar</label>
                         <br/>
-                        <br/>
-                        <label class="label label-default">Año 2015</label>
+                        <button class="btn btn-block btn-success"><i class="fa fa-file-excel-o"></i> Excel</button>
                     </div>
 
                  <div class="col-lg-6">
                         <ul class="nav nav-tabs">
 					        <li class="active"><a href="#ejem_recomedacion" data-toggle="tab">Información General</a></li>
-					        <li><a href="#ejem_descripcion" data-toggle="tab">Descripción Fisica</a></li>
+					        <li><a href="#ejem_descripcion" data-toggle="tab">Detalle</a></li>
 				        </ul>
                         <div class="tab-content">
                             <div class="tab-pane active" id="ejem_recomedacion">
                                 <label>Editorial</label>
-                                <p>Nombre_del_editorial_de_uno_a__dos_reglones.</p>
+                                <p>Nombre_del_editorial_de_uno_a__dos_reglones.</p> 
+                                <label>Area Publicación</label>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, unde!.</p>                               
                                 <label>Reseña</label>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus varius elit at condimentum ﬁnibus. Fusce lacinia mi libero, eget sagittis risus consectetur a. Vivamus suscipit turpis a laoreet posuere. Fusce tristique vitae sapien non maximus. Vestibulum</p>
                                 <label>Argumento</label>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus varius elit at condimentum ﬁnibus. Fusce lacinia mi libero, eget sagittis risus consectetur a. Vivamus suscipit turpis a laoreet posuere. Fusce tristique vitae sapien non maximus. Vestibulum at lorem pellentesque, aliquam neque sit amet, volutpat risus. Vestibulum quis eleifend massa. Vestibulum accumsan consectetur lacus cursus iaculis. Pellentesque eget ipsum in odio mollis scelerisque vitae nec nisl. Sed felis odio, gravida ac sem non, blandit consectetur urna. Maecenas et molestie arcu.</p>
-                            </div>
+                                <br/>
+                           </div>
+
                             <div class="tab-pane" id="ejem_descripcion">
                                 <label>Nº de páginas: </label>
                                 <p>345</p>
-                                <label>Ancho</label>
-                                <p>231mm</p>
-                                <label>Alto</label>
-                                <p>231mm</p>
-                                <label>Profuncidad</label>
-                                <p>231mm</p>
+                                <label>Dimensiones: </label>
+                                <p>200x200</p>
+                                <label>Formato: </label>
+                                <p>No Aplica</p>
                             </div>
                         </div>
                      </div>
 
                     <div class="col-lg-3">
+                            <label for="">Publicación:</label>
+                            <br/>
+                            <label class="label label-primary">2018</label>
+                            <br/>
+                            <br/>
+                            <label for="">Año recomendado:</label>
+                            <br/>
+                            <label class="label label-primary">2018</label>&nbsp;<label class="label label-primary">2018</label>
+                            <br/>
+                            <br/>
                             <label for="">Rango Etario:</label>
                             <br/>
                             <label class="label label-primary">Jovenes</label>&nbsp;<label class="label label-primary">Adultos</label>
@@ -101,15 +112,9 @@
                             <br/>
                             <label class="label label-info">94629462</label>
                             <br/>
-                            <br/>
-                            <label for="">Exportar:</label>
-                            <br/>
-                            <button class="btn btn-sm btn-success"><i class="fa fa-file-excel-o"></i> Excel</button>
-                            <br/>
-                            <br/>
                         </div>  
                     </div>
-        </div>
+          </div>
                 
 
         </div>
@@ -286,10 +291,3 @@
     <script src="../../resources/js/portal.js"></script>
 </body>
 </html>
-
-<!--
-    Año Recomendacion {,}
-    Area Publicacion {informacion general}
-    Dimensiones {Descripcion Fisica}
-    Formato {Descriptcion}
--->
