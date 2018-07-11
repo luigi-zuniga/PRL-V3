@@ -7,9 +7,10 @@
                     <span class="sr-only">Toggle navigation</span> Menú
                     <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
+                <a class="navbar-brand page-scroll" href="/PRL-V3/index.php">
                     <img src="/PRL-V3/resources/img/PRL-logotipo-color-lg.png" class="img-responsive">Recomendaciones
-                    <br/>de Lectura</a>
+                    <br/>de Lectura
+                </a>
             </div>
 
             <!-- Enlaces y formulario -->

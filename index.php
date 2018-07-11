@@ -122,7 +122,7 @@
             <div class="row">
                 <div class="col-lg-12">
                      <h2 class="section-heading">Últimos Libros Recomendados
-                        <a href="#" class="link-normal">Ver todos los libros</a>
+                        <a href="/PRL-V3/views/ejemplares/ejemplares.php" class="link-normal">Ver todos los libros</a>
                     </h2>
                 </div>
             </div>
@@ -449,11 +449,8 @@
     <!-- Plugin JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 
-    <!-- Contact Form JavaScript -->
-    <script src="resources/js/jqBootstrapValidation.js"></script>
-
     <!-- Theme JavaScript -->
-    <script src="resources/js/portal.js"></script>
+    <script src="shared/js/portal.js"></script>
 
 </body>
 

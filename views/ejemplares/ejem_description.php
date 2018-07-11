@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="Portal de recomendaciones">
+    <title>Descripción - Portal de Recomendaciones</title>
 
     <link href="../../resources/bootstrap/css/bootstrap.css" rel="stylesheet">
 
     <!-- Fuentes -->
     <link href="../../resources/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700|Open+Sans:300,700|Oswald:400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700|Open+Sans:300,700|Oswald:400,500,700" rel="stylesheet">
     <!-- Tema Personalizado CSS -->
     <link href="../../resources/css/portal.css" rel="stylesheet">
 
@@ -135,8 +136,8 @@
                 <div id="recomendaciones-panel">
                     <!--Recomendaciones Panel contenido-->
                     <div class="col-md-9 recomendaciones-item">
-                        <a href="#" class="recomendaciones-link">
-                            <div class="panel">
+                        <a href="../recomendaciones/recom_set.php" class="recomendaciones-link">
+                            <div class="panel"> 
                                 <div class="panel-body">
                                         <div class="recomendaciones-hover">
                                                 <div class="recomendaciones-hover-content">
@@ -284,10 +285,7 @@
     <!-- Plugin JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 
-    <!-- Contact Form JavaScript -->
-    <script src="../../resources/js/jqBootstrapValidation.js"></script>
-
     <!-- Theme JavaScript -->
-    <script src="../../resources/js/portal.js"></script>
+    <script src="../../shared/js/portal.js"></script>
 </body>
 </html>
