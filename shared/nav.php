@@ -27,13 +27,13 @@
                         <a class="page-scroll" href="/PRL-V3/">Inicio</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="/PRL-V3/views/Recomendaciones/recomendaciones.php">Recomendaciones</a>
+                        <a class="page-scroll" href="/PRL-V3/views/recomendaciones/recomendaciones.php">Recomendaciones</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="/PRL-V3/views/Comites/comite.php">Comités</a>
+                        <a class="page-scroll" href="/PRL-V3/views/comites/comites.php">Comités</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="/PRL-V3/views/Contacto/contacto.php">Contacto</a>
+                        <a class="page-scroll" href="/PRL-V3/views/contacto/contacto.php">Contacto</a>
                     </li>
                 </ul>
             </div>

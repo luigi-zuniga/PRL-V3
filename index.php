@@ -42,7 +42,7 @@
             <div class="row">
                 <div class="col-lg-12 text-left">
                     <h2 class="section-heading">Últimas Recomendaciones
-                        <a href="#" class="link-normal">Ver todas las recomendaciones</a>
+                        <a href="/PRL-V3/views/Recomendaciones/recomendaciones.php" class="link-normal">Ver todas las recomendaciones</a>
                     </h2>
                 </div>
             </div>
