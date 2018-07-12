@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="Portal de recomendaciones">
-    <title>Recomendaciones - Portal de Recomendaciones</title>
+    <title>Comités - Portal de Recomendaciones</title>
     <link href="../../resources/bootstrap/css/bootstrap.css" rel="stylesheet">
 
     <!-- Fuentes -->
@@ -43,14 +43,10 @@
                 </div>
 
                 <div class="col-lg-3 box-busqueda">
-                        <form class="form-group" action="ejem_lista_busqueda.php">
+                <form class="form-group" action="ejem_lista_busqueda.php">
                             <label class="control-label">Busca:</label>
                             <input class="form-control lead" name="" placeholder="¿Buscas algo en particular?" type="text">
                             <button type="submit" class="btn btn-primary btn-block">Buscar</button>
-                            <br/>
-
-                            <label class="control-label">Exportar:</label>
-                            <a href="#" class="btn btn-block btn-success">Excel <i class="fa fa-file-excel-o"></i> </a>
                             <br/>
                             <!--Mensaje-->
                             <label>Filtrar:</label>
@@ -60,162 +56,161 @@
                             <select class="form-control" id="filtroYear">
                                 <option value="">Seleccione una Opción</option>
                             </select>
-                            <br/>
-                            <!--filtro por Area-->
-                            <label class="control-label">Area:</label>
-                            <select class="form-control" id="filtroRegion">
-                                <option value="">Seleccione una Opción</option>
-                            </select>
 
-                            <div class="lead"></div>
-
-                            <!--Filtro por materia-->
-                            <label class="control-label">Materias:</label>
-                            <select class="form-control js-source-states">
-                            <optgroup label="Alaskan/Hawaiian Time Zone">
-                                <option value="AK">Alaska</option>
-                                <option value="HI">Hawaii</option>
-                            </optgroup>
-                            <optgroup label="Pacific Time Zone">
-                                <option value="CA">California</option>
-                                <option value="NV">Nevada</option>
-                                <option value="OR">Oregon</option>
-                                <option value="WA">Washington</option>
-                            </optgroup>
-                            </select>
-
-                            <div class="lead"></div>
-
-                            <!--Rango Etario-->
-                            <label class="control-label">Rango Etario:</label>
-                            <select class="js-rango-etario form-control" multiple="multiple">
-                                <option value="">Público General</option>
-                                <option value="">Infantil</option>
-                                <option value="">Juvenil</option>
-                                <option value="">Adulto</option>
-                                <option value="">Adulto Mayor</option>
-                            </select>
                             <div class="lead"></div>
 
                             <!-- Boton Aplicar-->
                             <button type="button" class="btn btn-primary btn-block">Aplicar</button>
                         </form>
-    
                 </div>
 
                 <div class="col-lg-9">
                 <div id="recomendaciones-panel">
                     <!--Recomendaciones Panel contenido-->
                     <div class="col-md-12 recomendaciones-item">
-                        <a href="/PRL-V3/views/recomendaciones/recom_set.php" class="recomendaciones-link">
-                            <div class="panel">
-                                <div class="panel-body">
-                                        <div class="recomendaciones-hover">
-                                                <div class="recomendaciones-hover-content">
-                                                    <i class="fa fa-eye fa-1x"><span>Ver<span></i>
+                            <a href="../../views/recomendaciones/recom_set.php" class="recomendaciones-link">
+                                <div class="panel">
+                                    <div class="panel-body">
+                                            <div class="recomendaciones-hover">
+                                                    <div class="recomendaciones-hover-content">
+                                                        <i class="fa fa-eye fa-1x"><span>Ver<span></i>
+                                                   </div>
                                                </div>
-                                           </div>
-                                    <h4>Título del set de recomendaciones de uno hasta tres reglones en la vista previa del set</h4>
-                                    <small class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo
-                                        inventore harum ex magni, dicta impedit.</small>
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="footer-description">
-                                                <label class="label label-default">Año: 2015</label>
-                                                <small><strong>Comité:</strong> Nombre_del_comité_encargado</small>
-                                                <i class="fa fa-book fa-2x"></i>
+                                        <h4>Título del set de recomendaciones de uno hasta tres reglones en la vista previa del set.</h4>
+                                        <small class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo
+                                            inventore harum ex magni, dicta impedit.</small>
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="footer-description">
+                                                    <label class="label label-default">Año: 2015</label>
+                                                    <small><strong>Comité:</strong> Nombre_del_comité_encargado</small>
+                                                    <i class="fa fa-book fa-2x"></i>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </a>
-                    </div>
-                    <!--end Recomendaciones Panel contendo-->
+                            </a>
+                        </div>
+                        <!--end Recomendaciones Panel contendo-->
 
+           
                     <!--Recomendaciones Panel contenido-->
                     <div class="col-md-12 recomendaciones-item">
-                        <a href="/PRL-V3/views/recomendaciones/recom_set.php" class="recomendaciones-link">
-                            <div class="panel">
-                                <div class="panel-body">
-                                        <div class="recomendaciones-hover">
-                                                <div class="recomendaciones-hover-content">
-                                                    <i class="fa fa-eye fa-1x"><span>Ver<span></i>
+                            <a href="../../views/recomendaciones/recom_set.php" class="recomendaciones-link">
+                                <div class="panel">
+                                    <div class="panel-body">
+                                            <div class="recomendaciones-hover">
+                                                    <div class="recomendaciones-hover-content">
+                                                        <i class="fa fa-eye fa-1x"><span>Ver<span></i>
+                                                   </div>
                                                </div>
-                                           </div>
-                                    <h4>Título del set de recomendaciones de uno hasta tres reglones en la vista previa del set</h4>
-                                    <small class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo
-                                        inventore harum ex magni, dicta impedit.</small>
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="footer-description">
-                                                <label class="label label-default">Año: 2015</label>
-                                                <small><strong>Comité:</strong> Nombre_del_comité_encargado</small>
-                                                <i class="fa fa-book fa-2x"></i>
+                                        <h4>Título del set de recomendaciones de uno hasta tres reglones en la vista previa del set.</h4>
+                                        <small class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo
+                                            inventore harum ex magni, dicta impedit.</small>
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="footer-description">
+                                                    <label class="label label-default">Año: 2015</label>
+                                                    <small><strong>Comité:</strong> Nombre_del_comité_encargado</small>
+                                                    <i class="fa fa-book fa-2x"></i>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </a>
-                    </div>
-                    <!--end Recomendaciones Panel contendo-->
+                            </a>
+                        </div>
+                        <!--end Recomendaciones Panel contendo-->
 
-                     <!--Recomendaciones Panel contenido-->
-                    <div class="col-md-12 recomendaciones-item">
-                        <a href="/PRL-V3/views/recomendaciones/recom_set.php" class="recomendaciones-link">
-                            <div class="panel">
-                                <div class="panel-body">
-                                        <div class="recomendaciones-hover">
-                                                <div class="recomendaciones-hover-content">
-                                                    <i class="fa fa-eye fa-1x"><span>Ver<span></i>
-                                               </div>
-                                           </div>
-                                    <h4>Título del set de recomendaciones de uno hasta tres reglones en la vista previa del set</h4>
-                                    <small class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo
-                                        inventore harum ex magni, dicta impedit.</small>
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="footer-description">
-                                                <label class="label label-default">Año: 2015</label>
-                                                <small><strong>Comité:</strong> Nombre_del_comité_encargado</small>
-                                                <i class="fa fa-book fa-2x"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <!--end Recomendaciones Panel contendo-->
-
+                               
                     <!--Recomendaciones Panel contenido-->
                     <div class="col-md-12 recomendaciones-item">
-                        <a href="/PRL-V3/views/recomendaciones/recom_set.php" class="recomendaciones-link">
-                            <div class="panel">
-                                <div class="panel-body">
-                                        <div class="recomendaciones-hover">
-                                                <div class="recomendaciones-hover-content">
-                                                    <i class="fa fa-eye fa-1x"><span>Ver<span></i>
+                            <a href="../../views/recomendaciones/recom_set.php" class="recomendaciones-link">
+                                <div class="panel">
+                                    <div class="panel-body">
+                                            <div class="recomendaciones-hover">
+                                                    <div class="recomendaciones-hover-content">
+                                                        <i class="fa fa-eye fa-1x"><span>Ver<span></i>
+                                                   </div>
                                                </div>
-                                           </div>
-                                    <h4>Título del set de recomendaciones de uno hasta tres reglones en la vista previa del set</h4>
-                                    <small class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo
-                                        inventore harum ex magni, dicta impedit.</small>
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="footer-description">
-                                                <label class="label label-default">Año: 2015</label>
-                                                <small><strong>Comité:</strong> Nombre_del_comité_encargado</small>
-                                                <i class="fa fa-book fa-2x"></i>
+                                        <h4>Título del set de recomendaciones de uno hasta tres reglones en la vista previa del set.</h4>
+                                        <small class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo
+                                            inventore harum ex magni, dicta impedit.</small>
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="footer-description">
+                                                    <label class="label label-default">Año: 2015</label>
+                                                    <small><strong>Comité:</strong> Nombre_del_comité_encargado</small>
+                                                    <i class="fa fa-book fa-2x"></i>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </a>
-                    </div>
-                    <!--end Recomendaciones Panel contendo-->
+                            </a>
+                        </div>
+                        <!--end Recomendaciones Panel contendo-->
+
+                               
+                    <!--Recomendaciones Panel contenido-->
+                    <div class="col-md-12 recomendaciones-item">
+                            <a href="../../views/recomendaciones/recom_set.php" class="recomendaciones-link">
+                                <div class="panel">
+                                    <div class="panel-body">
+                                            <div class="recomendaciones-hover">
+                                                    <div class="recomendaciones-hover-content">
+                                                        <i class="fa fa-eye fa-1x"><span>Ver<span></i>
+                                                   </div>
+                                               </div>
+                                        <h4>Título del set de recomendaciones de uno hasta tres reglones en la vista previa del set.</h4>
+                                        <small class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo
+                                            inventore harum ex magni, dicta impedit.</small>
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="footer-description">
+                                                    <label class="label label-default">Año: 2015</label>
+                                                    <small><strong>Comité:</strong> Nombre_del_comité_encargado</small>
+                                                    <i class="fa fa-book fa-2x"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!--end Recomendaciones Panel contendo-->
+
+                               
+                    <!--Recomendaciones Panel contenido-->
+                    <div class="col-md-12 recomendaciones-item">
+                            <a href="../../views/recomendaciones/recom_set.php" class="recomendaciones-link">
+                                <div class="panel">
+                                    <div class="panel-body">
+                                            <div class="recomendaciones-hover">
+                                                    <div class="recomendaciones-hover-content">
+                                                        <i class="fa fa-eye fa-1x"><span>Ver<span></i>
+                                                   </div>
+                                               </div>
+                                        <h4>Título del set de recomendaciones de uno hasta tres reglones en la vista previa del set.</h4>
+                                        <small class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo
+                                            inventore harum ex magni, dicta impedit.</small>
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="footer-description">
+                                                    <label class="label label-default">Año: 2015</label>
+                                                    <small><strong>Comité:</strong> Nombre_del_comité_encargado</small>
+                                                    <i class="fa fa-book fa-2x"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!--end Recomendaciones Panel contendo-->
+
+
                 </div>
             </div><!--row-->
         </div><!--Container-->

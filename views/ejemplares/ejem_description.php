@@ -165,7 +165,7 @@
 
                     <!--Recomendaciones Panel contenido-->
                     <div class="col-md-9 recomendaciones-item">
-                            <a href="#" class="recomendaciones-link">
+                            <a href="../recomendaciones/recom_set.php" class="recomendaciones-link">
                                 <div class="panel">
                                     <div class="panel-body">
                                             <div class="recomendaciones-hover">
@@ -213,7 +213,7 @@
                 <div id="recomendaciones-panel">
                     <!--Recomendaciones Panel contenido-->
                     <div class="col-md-9 recomendaciones-item">
-                        <a href="#" class="recomendaciones-link">
+                        <a href="../../views/comites/com_ficha.php" class="recomendaciones-link">
                             <div class="panel">
                                 <div class="panel-body">
                                         <div class="recomendaciones-hover">
@@ -242,7 +242,7 @@
 
                     <!--Recomendaciones Panel contenido-->
                     <div class="col-md-9 recomendaciones-item">
-                            <a href="#" class="recomendaciones-link">
+                            <a href="../../views/comites/com_ficha.php" class="recomendaciones-link">
                                 <div class="panel">
                                     <div class="panel-body">
                                             <div class="recomendaciones-hover">

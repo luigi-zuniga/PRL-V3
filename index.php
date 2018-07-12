@@ -53,7 +53,7 @@
                 <div id="recomendaciones-panel">
                     <!--Recomendaciones Panel contenido-->
                     <div class="col-md-6 recomendaciones-item">
-                        <a href="#" class="recomendaciones-link">
+                        <a href="views/recomendaciones/recom_set.php" class="recomendaciones-link">
                             <div class="panel">
                                 <div class="panel-body">
                                         <div class="recomendaciones-hover">
@@ -82,7 +82,7 @@
 
                     <!--Recomendaciones Panel contenido-->
                     <div class="col-md-6 recomendaciones-item">
-                            <a href="#" class="recomendaciones-link">
+                            <a href="views/recomendaciones/recom_set.php" class="recomendaciones-link">
                                 <div class="panel">
                                     <div class="panel-body">
                                             <div class="recomendaciones-hover">
@@ -249,7 +249,7 @@
                     <div class="row">
                         <div class="col-lg-12 text-left">
                             <h2 class="section-heading">Otros Comités
-                                <a href="#" class="link-normal">Ver todos los comités</a>
+                                <a href="views/otrosComites/otros_comites.php" class="link-normal">Ver todos los otros comités</a>
                             </h2>
                         </div>
 
@@ -362,14 +362,6 @@
     
                 </div>
             </section>
-
-
-
-
-
-
- 
-
 
 
 

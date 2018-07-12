@@ -26,6 +26,14 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+
+    <script type="text/javascript">
+        function resizeIframe(obj) {
+            obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+        }
+    </script>
+
 </head>
 <body>
 
@@ -39,7 +47,7 @@
         <div class="container">
             <div class="row">
                  <div class="col-lg-12 text-center" style="margin-bottom:50px;">
-                    <h1 class="section-heading">Comités</h1>
+                    <h1 class="section-heading">Otros Comités</h1>
                 </div>
 
                 <div class="col-lg-3 box-busqueda">
@@ -48,28 +56,15 @@
                             <input class="form-control lead" name="" placeholder="¿Buscas algo en particular?" type="text">
                             <button type="submit" class="btn btn-primary btn-block">Buscar</button>
                             <br/>
-                            <!--Mensaje-->
-                            <label>Filtrar:</label>
-                            <p>Utiliza los filtros para refinar tu búsqueda.</p>
-                            <!--Filtro por año-->
-                            <label class="control-label">Año:</label>
-                            <select class="form-control" id="filtroYear">
-                                <option value="">Seleccione una Opción</option>
-                            </select>
-
-                            <div class="lead"></div>
-
-                            <!-- Boton Aplicar-->
-                            <button type="button" class="btn btn-primary btn-block">Aplicar</button>
                         </form>
     
                 </div>
 
                 <div class="col-lg-9">
                 <div id="recomendaciones-panel">
-                    <!--Comites Panel -->
+                    <!--Otros Comites Panel -->
                     <div class="col-lg-12 recomendaciones-item">
-                        <a href="../../views/comites/com_ficha.php" class="recomendaciones-link"  data-toggle="modal">
+                        <a href="#comiteModal1" class="recomendaciones-link"  data-toggle="modal">
                                         <div class="panel">
                                             <div class="panel-body">
                                                     <div class="recomendaciones-hover">
@@ -92,10 +87,10 @@
                                         </div>
                                     </a>
                                 </div>
-                    <!--end Comites Panel contendo-->
+                    <!--end otros comites Panel -->
 
            
-                    <!--Comites Panel -->
+                    <!--Otros Comites Panel -->
                     <div class="col-lg-12 recomendaciones-item">
                         <a href="#comiteModal1" class="recomendaciones-link"  data-toggle="modal">
                                         <div class="panel">
@@ -120,10 +115,10 @@
                                         </div>
                                     </a>
                                 </div>
-                    <!--end comites Panel contendo-->
+                    <!--end otros comites Panel -->
 
                                
-                    <!--Comites Panel -->
+                    <!--Otros Comites Panel -->
                     <div class="col-lg-12 recomendaciones-item">
                         <a href="#comiteModal1" class="recomendaciones-link"  data-toggle="modal">
                                         <div class="panel">
@@ -148,10 +143,10 @@
                                         </div>
                                     </a>
                                 </div>
-                    <!--end comites Panel contendo-->
+                    <!--end otros comites Panel -->
 
                                
-                    <!--Comites Panel -->
+                    <!--Otros Comites Panel -->
                     <div class="col-lg-12 recomendaciones-item">
                         <a href="#comiteModal1" class="recomendaciones-link"  data-toggle="modal">
                                         <div class="panel">
@@ -176,10 +171,10 @@
                                         </div>
                                     </a>
                                 </div>
-                    <!--end comites Panel contendo-->
+                    <!--end otros comites Panel -->
 
                                
-                    <!--Comites Panel -->
+                    <!--Otros Comites Panel -->
                     <div class="col-lg-12 recomendaciones-item">
                         <a href="#comiteModal1" class="recomendaciones-link"  data-toggle="modal">
                                         <div class="panel">
@@ -204,7 +199,7 @@
                                         </div>
                                     </a>
                                 </div>
-                    <!--end comites Panel contendo-->
+                    <!--end otros comites Panel -->
 
 
 
@@ -213,6 +208,38 @@
         </div><!--Container-->
     </section>
 
+        <!--Modal Comite-->
+        <div class="ejemplar-modal modal fade" id="comiteModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 col-lg-offset-2">
+                                <div class="modal-body">
+                                    <!--  Detalle -->
+                                    <h4>Título_del_comité_en_un_reglón.</h4>
+                                    <img class="img-responsive img-centered" src="https://dummyimage.com/300x400/575757/e6e6ed.jpg" alt="" width="200px">
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed sequi et possimus ducimus modi id totam est explicabo magnam excepturi. Dolores labore animi dolore nostrum odit. Sit, doloribus. Omnis, obcaecati!</p>
+                                    <a href="https://www.google.cl/?gws_rd=ssl" class="btn btn-default btn-block">
+                                    <i class="fa fa-plus"></i> Más información</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+     
+
+ 
 
 
     <!-- jQuery -->
@@ -228,32 +255,9 @@
     <!-- Theme JavaScript -->
     <script src="../../shared/js/portal.js"></script>
 
-    <!--Select2 -->
-    <script src="../../bower_components/select2/dist/js/select2.min.js"></script>
 
-    <!-- Select2 Idioma-->
-    <script src="../../bower_components/select2/dist/js/i18n/es.js"></script>
 
-    <script type="text/javascript">
-        $(document).ready(function() 
-        {
-            $('.js-rango-etario').select2({
-                language: "es"
-            });
-        });
 
-    </script>
-
-    <script type="text/javascript">
-    $(document).ready(function() {
-      // Initialize "states" example
-      var $states = $(".js-source-states");
-      var statesOptions = $states.html();
-      
-    
-      $(".js-states").append(statesOptions);
-    }); 
-</script>
 
 </body>
 </html>
